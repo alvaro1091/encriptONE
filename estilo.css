@@ -1,0 +1,115 @@
+*{
+    background: #f3f5fc;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+.logo{
+    padding-top: 30px;
+    margin-left: 50px;
+    width: 1.5%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-family: 'Inter', sans-serif;
+}
+::placeholder{color:#0A3871;}
+    .text-area:focus{
+        OUTLINE:none;
+    }
+
+.mensaje{
+    background: rgb(123, 235, 243);
+    /* background-image: url(media/Brazuca\ -\ Planning.png); */
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+    .mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-desencrip{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    transition: 1s all;
+
+}
+.btn-desencrip:hover{
+    background-color: rgb(109, 109, 109);
+    transform: scale(1.1);
+    color: #D8DFE8;
+    border: none;
+    
+}
+.btn-encrip{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0a5971;
+    border: none;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.btn-encrip:hover{
+    background-color: rgb(20, 206, 206);
+    transform: scale(1.1)
+    
+}
+
+.copiar{
+    border: 2px solid #103497;
+    border-radius: 24px;
+    color: #620aaa;
+    cursor: progress;
+    height: 67px;
+    margin-left: 155px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+    transition: 1s all;
+}
+.copiar:hover{
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(167, 167, 167, 0.322);
+    transform: scale(1.1)
+    
+}
+
+.informacion{
+    color: #3852c5de;
+    font-size: 12px;
+}
