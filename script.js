@@ -39,8 +39,3 @@ function desencrip(stringDesencriptado){
     }
     return stringDesencriptado
 }
-
-function copiar (){
-    let bntCopiar = copiar(textArea.value)
-    mensaje.value = 
-}
